@@ -1,0 +1,26 @@
+/*   ELEMENT STYLING   */
+
+h1 {
+  text-align: center;
+}
+
+/*   CLASS STYLING   */
+
+.statPriority {
+  margin: 0;
+}
+
+.container {
+  display: table;
+  table-layout: fixed;
+}
+
+.row {
+  display: table-row;
+}
+
+.col {
+  display: table-cell;
+}
+
+/*   ID STYLING   */
