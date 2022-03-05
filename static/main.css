@@ -1,5 +1,9 @@
 /*   ELEMENT STYLING   */
 
+body {
+  background-color: rgb(26, 24, 24);
+  color: yellow;
+}
 h1 {
   text-align: center;
 }
