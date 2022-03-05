@@ -1,11 +1,17 @@
 /*   ELEMENT STYLING   */
 
 body {
-  background-color: rgb(26, 24, 24);
+  background-color: rgb(44, 43, 43);
   color: yellow;
 }
 h1 {
+  color: red;
   text-align: center;
+}
+
+hr {
+  color: red;
+  width: 80%;
 }
 
 /*   CLASS STYLING   */

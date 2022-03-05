@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta
       name="description"
-      content="This is a quick reference guide for all the classes in World of Warcraft.  It will give you the stat priority, best in slot gear, talents, etc."
+      content="World of Warcraft Balance Druid Quick Reference Guide - Stat priority, best in slot gear, talents, etc."
     />
-    <title>World of Warcraft Quick Reference Guide</title>
+    <title>World of Warcraft Balance Druid Quick Reference Guide</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,7 +20,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">WOW Quick Reference</a>
+        <a class="navbar-brand" href="index.html">WOW Quick Reference</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,7 +34,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown active">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -77,9 +77,7 @@
                 >Druid</a
               >
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="druid-balance">Balance</a>
-                </li>
+                <li><a class="dropdown-item" href="#">Balance</a></li>
                 <li><a class="dropdown-item" href="druid-feral">Feral</a></li>
                 <li>
                   <a class="dropdown-item" href="druid-guardian">Guardian</a>
@@ -227,12 +225,142 @@
         </div>
       </div>
     </nav>
+    <h1>Balance Druid</h1>
+    <hr />
+    <h2>Stat Priority</h2>
+    <p class="statPriority">* Intellect</p>
+    <p class="statPriority">* Mastery</p>
+    <p class="statPriority">Haste</p>
+    <p class="statPriority">Critical Strike</p>
+    <p class="statPriority">Versatility</p>
     <p>
-      This is intended to be a quick reference guide that was compiled from
-      various sources and players to show you how to build a solid, playable
-      character. If you are looking to maximize your character then you will
-      want to do more research on your own to maximize your character build.
+      * You want to focus on these two stats. It is okay to have just a little
+      of the others.
     </p>
+    <h2>Best In Slot Gear</h2>
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col">SLOT</div>
+        <div class="col">ITEM NAME</div>
+        <div class="col">LOCATION FOUND</div>
+      </div>
+      <div class="row">
+        <div class="col">HEAD</div>
+        <div class="col">* Headpiece of the Fixed Stars</div>
+        <div class="col">Anduin Wrynn</div>
+      </div>
+      <div class="row">
+        <div class="col">Neck</div>
+        <div class="col">Worldkiller Iris</div>
+        <div class="col">The Jailer</div>
+      </div>
+      <div class="row">
+        <div class="col">Shoulders</div>
+        <div class="col">* Shoulderpads of the Fixed Stars</div>
+        <div class="col">Lords of Dread</div>
+      </div>
+      <div class="row">
+        <div class="col">Cloak</div>
+        <div class="col">Shroud of the Sire's Chosen</div>
+        <div class="col">Lords of Dread</div>
+      </div>
+      <div class="row">
+        <div class="col">Chest</div>
+        <div class="col">* Chestguard of the Fixed Stars</div>
+        <div class="col">Rygelon</div>
+      </div>
+      <div class="row">
+        <div class="col">Wrists</div>
+        <div class="col">Wrists of the Wicked Star</div>
+        <div class="col">Anduin Wrynn</div>
+      </div>
+      <div class="row">
+        <div class="col">Gloves</div>
+        <div class="col">* Handwraps of the Fixed Stars</div>
+        <div class="col">Lihuvim</div>
+      </div>
+      <div class="row">
+        <div class="col">Belt</div>
+        <div class="col">Runecarver's Twisted Ward</div>
+        <div class="col">The Jailer</div>
+      </div>
+      <div class="row">
+        <div class="col">Legs</div>
+        <div class="col">* Leggings of the Fixed Stars</div>
+        <div class="col">Halondrus</div>
+      </div>
+      <div class="row">
+        <div class="col">Boots</div>
+        <div class="col">Treads of Titanic Curiosity</div>
+        <div class="col">Rygelon</div>
+      </div>
+      <div class="row">
+        <div class="col">Ring 1</div>
+        <div class="col">Rygelon's Heraldric Ring</div>
+        <div class="col">Rygelon</div>
+      </div>
+      <div class="row">
+        <div class="col">Ring 2</div>
+        <div class="col">Taciturn Keeper's Lapis</div>
+        <div class="col">Halondrus</div>
+      </div>
+      <div class="row">
+        <div class="col">Trinket 1</div>
+        <div class="col">Inscrutable Quantum Device - By far best trinket!</div>
+        <div class="col">De Other Side</div>
+      </div>
+      <div class="row">
+        <div class="col">Trinket 2</div>
+        <div class="col">Elegy of the Eternals</div>
+        <div class="col">Prototype Pantheon</div>
+      </div>
+      <div class="row">
+        <div class="col">Weapon</div>
+        <div class="col">Antumbra, Shadow of the Cosmos & Forbidden Truth</div>
+        <div class="col">Rygelon & The Jailer</div>
+      </div>
+    </div>
+    <p>
+      * - These items offer a tier set bonus for having multiple items in the
+      set equipped. There is also a chance of these items dropping from the
+      Great Vault as Mythic+ and PvP rewards. There will also be the opportunity
+      to use the Creation Catalyst system to upgrade specific off-pieces into
+      tier set pieces.
+    </p>
+    <p>TIER SET BONUS EXPLANATION COMING HERE</p>
+    <hr />
+    <h2>TALENTS</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col">Level 15</div>
+        <div class="col">Nature's Balance</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 25</div>
+        <div class="col">Wild Charge</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 30</div>
+        <div class="col">Restoration Affinity</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 35</div>
+        <div class="col">Mighty Bash</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 40</div>
+        <div class="col">Soul of the Forest</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 45</div>
+        <div class="col">Stellar Drift</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 50</div>
+        <div class="col">Solstice</div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
