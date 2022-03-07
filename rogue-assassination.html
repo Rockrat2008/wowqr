@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="World of Warcraft Assassination Rogue Quick Reference Guide - Stat priority, best in slot gear, talents, etc."
+    />
+    <title>World of Warcraft Assassination Rogue Quick Reference Guide</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">WOW Quick Reference</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Death Knight</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="dk-blood.html">Blood</a></li>
+                <li><a class="dropdown-item" href="dk-frost.html">Frost</a></li>
+                <li>
+                  <a class="dropdown-item" href="dk-unholy.html">Unholy</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Demon Hunter</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Havoc</a></li>
+                <li>
+                  <a class="dropdown-item" href="dh-vengance.html">Vengeance</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Druid</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Balance</a></li>
+                <li><a class="dropdown-item" href="#">Feral</a></li>
+                <li><a class="dropdown-item" href="#">Guardian</a></li>
+                <li><a class="dropdown-item" href="#">Restoration</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hunter
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">BeastMaster</a></li>
+                <li><a class="dropdown-item" href="#">Marksmanship</a></li>
+                <li><a class="dropdown-item" href="#">Survival</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Mage</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Arcane</a></li>
+                <li><a class="dropdown-item" href="#">Fire</a></li>
+                <li><a class="dropdown-item" href="#">Frost</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Monk</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Brewmaster</a></li>
+                <li><a class="dropdown-item" href="#">Mistweaver</a></li>
+                <li><a class="dropdown-item" href="#">Windwalker</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Paladin</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Holy</a></li>
+                <li><a class="dropdown-item" href="#">Protection</a></li>
+                <li><a class="dropdown-item" href="#">Retribution</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Priest</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Discipline</a></li>
+                <li><a class="dropdown-item" href="#">Holy</a></li>
+                <li><a class="dropdown-item" href="#">Shadow</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Rogue</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Assassination</a></li>
+                <li><a class="dropdown-item" href="#">Outlaw</a></li>
+                <li><a class="dropdown-item" href="#">Subtlety</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Shaman</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Elemental</a></li>
+                <li><a class="dropdown-item" href="#">Enhancement</a></li>
+                <li><a class="dropdown-item" href="#">Restoration</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Warrior</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Arms</a></li>
+                <li><a class="dropdown-item" href="#">Fury</a></li>
+                <li><a class="dropdown-item" href="#">Protection</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <h1>ASSASSINATION ROGUE</h1>
+    <hr />
+    <h2>Stat Priority</h2>
+    <p class="statPriority">Agility</p>
+    <p class="statPriority">Haste</p>
+    <p class="statPriority">Critical Strike</p>
+    <p class="statPriority">Versatility</p>
+    <p class="statPriority">Mastery</p>
+    <h2>Best In Slot Gear</h2>
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col">SLOT</div>
+        <div class="col">ITEM NAME</div>
+        <div class="col">LOCATION FOUND</div>
+      </div>
+      <div class="row">
+        <div class="col">HEAD</div>
+        <div class="col">* Soulblade Guise / Sin-Steeped Coronet</div>
+        <div class="col">Anduin Wrynn / Prototype of War</div>
+      </div>
+      <div class="row">
+        <div class="col">Neck</div>
+        <div class="col">Beacon of Stormwind</div>
+        <div class="col">Anduin Wrynn</div>
+      </div>
+      <div class="row">
+        <div class="col">Shoulders</div>
+        <div class="col">* Soulblade Nightwings</div>
+        <div class="col">Lords of Dread</div>
+      </div>
+      <div class="row">
+        <div class="col">Cloak</div>
+        <div class="col">Shroud of the Sire's Chosen</div>
+        <div class="col">Lords of Dread</div>
+      </div>
+      <div class="row">
+        <div class="col">Chest</div>
+        <div class="col">* Soulblade Leathers</div>
+        <div class="col">Rygelon</div>
+      </div>
+      <div class="row">
+        <div class="col">Wrists</div>
+        <div class="col">Wrists of the Wicked Star</div>
+        <div class="col">Anduin Wrynn</div>
+      </div>
+      <div class="row">
+        <div class="col">Gloves</div>
+        <div>* Soulblade Grasps</div>
+        <div class="col">* Lihuvim</div>
+      </div>
+      <div class="row">
+        <div class="col">Belt</div>
+        <div class="col">Runecarver's Twisted Ward</div>
+        <div class="col">The Jailer</div>
+      </div>
+      <div class="row">
+        <div class="col">Legs</div>
+        <div class="col">* Soulblade Leggings</div>
+        <div class="col">* Halondrus</div>
+      </div>
+      <div class="row">
+        <div class="col">Boots</div>
+        <div class="col">Treads of Titanic Curiosity</div>
+        <div class="col">Rygelon</div>
+      </div>
+      <div class="row">
+        <div class="col">Ring 1</div>
+        <div class="col">Rygelon's Heraldic Ring</div>
+        <div class="col">Rygelon</div>
+      </div>
+      <div class="row">
+        <div class="col">Ring 2</div>
+        <div class="col">Loquacious Keeper's Peridot</div>
+        <div class="col">Lihuvim</div>
+      </div>
+      <div class="row">
+        <div class="col">Trinket 1</div>
+        <div class="col">Elegy of the Eternals</div>
+        <div class="col">Prototype of War</div>
+      </div>
+      <div class="row">
+        <div class="col">Trinket 2</div>
+        <div class="col">Chains of Domination</div>
+        <div class="col">The Jailer</div>
+      </div>
+      <div class="row">
+        <div class="col">Weapon</div>
+        <div class="col">Observer's Umbral Shiv (x2)</div>
+        <div class="col">Rygelon</div>
+      </div>
+    </div>
+    <p>
+      * - These items offer a tier set bonus for having multiple items in the
+      set equipped. There is also a chance of these items dropping from the
+      Great Vault as Mythic+ and PvP rewards. There will also be the opportunity
+      to use the Creation Catalyst system to upgrade specific off-pieces into
+      tier set pieces.
+    </p>
+    <hr />
+    <h2>TALENTS</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col">Level 15</div>
+        <div class="col">Elaborate Planning</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 25</div>
+        <div class="col">Subterfuge</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 30</div>
+        <div class="col">Deeper Stratagem</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 35</div>
+        <div class="col">Cheat Death</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 40</div>
+        <div class="col">Prey on the Weak</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 45</div>
+        <div class="col">Alacrity</div>
+      </div>
+      <div class="row">
+        <div class="col">Level 50</div>
+        <div class="col">Poison Bomb</div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
